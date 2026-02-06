@@ -36,7 +36,7 @@ CSV files in `data/`:
 - `routes.csv`: eligibility map + processing time per unit
 
 ## Quick demo (local)
-```bash
+~~~bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -44,6 +44,9 @@ pip install -r requirements.txt
 python src/generate_data.py
 python src/solve_capex_mip.py
 python src/report.py
+~~~
+
+Artifacts will be saved under `results/` (CSVs) and `results/charts/` (PNGs).
 
 ## How to run
 Create/activate venv, then:
