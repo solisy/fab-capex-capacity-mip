@@ -1,5 +1,9 @@
 # Fab Tool CapEx + Capacity + Product Flow Optimizer (MIP Prototype)
 
+> Note: Most of my prior work has been in internal systems/data environments.  
+> This is a small public prototype to demonstrate my modeling approach and decision-support packaging.
+
+
 A small, reproducible decision-support prototype that selects tool purchases (CapEx proxy) and allocates product flow through multi-step process routing under tool-capacity constraints.
 
 ## Why this matters
