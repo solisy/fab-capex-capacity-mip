@@ -48,6 +48,10 @@ python src/report.py
 
 Artifacts will be saved under `results/` (CSVs) and `results/charts/` (PNGs).
 
+
+![Tool Purchases](results/charts/tool_purchases.png)
+![Cost Breakdown](results/charts/cost_breakdown.png)
+
 ## How to run
 Create/activate venv, then:
 ```bash
