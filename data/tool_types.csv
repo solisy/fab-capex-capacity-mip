@@ -1,0 +1,6 @@
+tool_type,capex_cost_k,cap_hours_per_period,max_buy
+T1,1000,800,2
+T2,400,1000,2
+T3,1200,800,4
+T4,600,1400,2
+T5,1000,1200,2

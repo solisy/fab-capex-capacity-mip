@@ -1,0 +1,2 @@
+status,objective_total_k,capex_total_k,shortage_total_k,num_vars,num_constraints
+Optimal,6000.0,6000.0,0.0,138,61
