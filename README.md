@@ -35,6 +35,16 @@ CSV files in `data/`:
 - `tool_types.csv`: CapEx cost and capacity hours per tool type
 - `routes.csv`: eligibility map + processing time per unit
 
+## Quick demo (local)
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python src/generate_data.py
+python src/solve_capex_mip.py
+python src/report.py
+
 ## How to run
 Create/activate venv, then:
 ```bash
